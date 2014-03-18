@@ -1,0 +1,71 @@
+# Standard VS.NET and ReSharper Foo
+obj
+bin
+*.csproj.user
+*ReSharper*
+*resharper*
+*.suo
+*.cache
+* Thumbs.db
+*.tmp_proj
+
+# Prevents ignoring .csproj.resharper files (for namespace exemptions)
+!*.csproj.ReSharper
+
+# For avoiding build artifacts
+Release
+Packages
+Build
+Debug
+
+# Visual Studio Team System stuff
+*.vssscc
+*.vspscc
+*.vsmdi
+*.testsettings
+
+# Other useful stuff
+*.bak
+*.cache
+*.log
+*.swp
+*.user
+_compareTemp
+_notes
+aspnet_client
+httpd.parse.errors
+*.tmp
+
+# Office Temp Files
+~$*
+
+# If you have a deploy folder
+deploy
+deploy/*
+
+# NDepend Project files and output
+ndependout
+*.ndproj
+NDependOut
+
+# Visual Studio Profiling Files
+*.vsp
+
+# Mighty Moose Cache File.
+*mm_cache.bin
+
+# OS X
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must ends with two \r.
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
